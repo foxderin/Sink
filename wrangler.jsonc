@@ -11,6 +11,13 @@
   "compatibility_flags": [
     "nodejs_compat"
   ],
+  "workers_dev": true,
+  "routes": [
+    {
+      "pattern": "65536.dev/*",
+      "zone_name": "65536.dev"
+    }
+  ],
   "keep_vars": true,
   "upload_source_maps": true,
   "observability": {
